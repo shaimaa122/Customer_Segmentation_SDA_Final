@@ -12,8 +12,8 @@
 - [Data Dictionary](https://github.com/shaimaa122/Customer_segment/blob/main/Customer%20Segmentation%20-%20Data%20Dictinory.pdf)
 
 ## Overview:
-
-
+Customer segmentation is the practice of dividing a customer into groups of individuals that are similar As below fig, In this project ,I classify the customers into 4 segmentations(A,B,C,D).
+![Customer segmentation](https://github.com/shaimaa122/Customer_segment/blob/main/Customer_segmintation.png)
 
 ## Process(Steps):
 ### 1- Exploratory Data Analysis(EDA):
@@ -39,5 +39,7 @@ F
    - KNN Classifier
    - SGD Classifier
    - Stacking Classifier
+
+## Conclusion:
  
          
