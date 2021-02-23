@@ -13,17 +13,12 @@
 - [Data Dictionary](https://github.com/shaimaa122/Customer_segment/blob/main/Customer%20Segmentation%20-%20Data%20Dictinory.pdf)
 
 ### Overview:
-Customer segmentation is the practice of dividing a customer into groups of individuals that are similar As below fig, In this project ,I classify the customers into 4 segmentations(A,B,C,D).
 
 
-![Customer segmentation](https://github.com/shaimaa122/Customer_segment/blob/main/Customer_segmintation.png)
-
-
----
 
 ### Process(Steps):
 ### 1- Exploratory Data Analysis(EDA):
-Exploratory data analysis step is to identify missing data, explore data type, visualize the data before applying any nalysis to it, look at data distribution, mean and standard deviation, and etc.
+Exploratory data analysis step is to identify missing data, explore data type, visualize the data before applying any       analysis to it, look at data distribution, mean and standard deviation, and etc.
 F
 
    - The most of numbers of Male Customer 
