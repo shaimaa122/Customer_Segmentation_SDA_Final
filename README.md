@@ -8,11 +8,13 @@
 
 -  Data:
    the data set is from [Kaggle](https://www.kaggle.com/vetrirah/customer) and can be downloaded from this [repo](https://github.com/shaimaa122/Customer_segment/blob/main/Train.csv). 
-   
+  
 - [Data Dictionary](https://github.com/shaimaa122/Customer_segment/blob/main/Customer%20Segmentation%20-%20Data%20Dictinory.pdf)
 
 ## Overview:
 Customer segmentation is the practice of dividing a customer into groups of individuals that are similar As below fig, In this project ,I classify the customers into 4 segmentations(A,B,C,D).
+</br>
+
 ![Customer segmentation](https://github.com/shaimaa122/Customer_segment/blob/main/Customer_segmintation.png)
 
 ## Process(Steps):
