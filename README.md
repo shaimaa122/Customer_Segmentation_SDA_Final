@@ -15,6 +15,8 @@
 ### Overview:
 
 
+---
+
 ### Process(Steps):
 #### 1- Exploratory Data Analysis(EDA):
 Exploratory data analysis step is to identify missing data, explore data type, visualize the data before applying any       analysis to it, look at data distribution, mean and standard deviation, and etc.
