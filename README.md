@@ -13,7 +13,7 @@
 - [Data Dictionary](https://github.com/shaimaa122/Customer_segment/blob/main/Customer%20Segmentation%20-%20Data%20Dictinory.pdf)
 
 ### Overview:
-
+![Customer segmentation](https://github.com/shaimaa122/Customer_segment/blob/main/Customer_segmintation.png)
 
 ---
 
