@@ -2,12 +2,23 @@
 # Customer segmentation 
 ## Shaima Alharbi 
 ---
+### Setup:
+
+- Libraries: 
+   You will need to have numpy, pandas, seaborn,sklearn and matplotlib.
+
+-  Data:
+   the data set is from [Kaggle](https://www.kaggle.com/vetrirah/customer) and can be downloaded from this [repo](https://github.com/shaimaa122/Customer_segment/blob/main/Train.csv). 
+   
+- [Data Dictionary]()
+
 ### Overview:
 
 
 ### Process(Steps):
 #### 1- Exploratory Data Analysis(EDA):
-   Exploratory data analysis step is to identify missing data, explore data type, visualize the data before applying any       analysis to it, look at data distribution, mean and standard deviation, and etc.
+Exploratory data analysis step is to identify missing data, explore data type, visualize the data before applying any       analysis to it, look at data distribution, mean and standard deviation, and etc.
+F
 
    - The most of numbers of Male Customer 
 #### 2- Extract Featuures:
