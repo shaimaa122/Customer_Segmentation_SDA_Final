@@ -1,8 +1,7 @@
 # Saudi Digital Academy
-# Customer segmentation 
-## Shaima Alharbi 
+# Customer segmentation -  *Shaima Alharbi*  
 
-### Setup:
+## Setup:
 
 - Libraries: 
    You will need to have numpy, pandas, seaborn,sklearn and matplotlib.
@@ -12,11 +11,11 @@
    
 - [Data Dictionary](https://github.com/shaimaa122/Customer_segment/blob/main/Customer%20Segmentation%20-%20Data%20Dictinory.pdf)
 
-### Overview:
+## Overview:
 
 
 
-### Process(Steps):
+## Process(Steps):
 ### 1- Exploratory Data Analysis(EDA):
 Exploratory data analysis step is to identify missing data, explore data type, visualize the data before applying any       analysis to it, look at data distribution, mean and standard deviation, and etc.
 F
