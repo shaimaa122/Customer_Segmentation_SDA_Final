@@ -1,7 +1,7 @@
 # Saudi Digital Academy
 # Customer segmentation 
 ## Shaima Alharbi 
----
+
 ### Setup:
 
 - Libraries: 
@@ -10,7 +10,7 @@
 -  Data:
    the data set is from [Kaggle](https://www.kaggle.com/vetrirah/customer) and can be downloaded from this [repo](https://github.com/shaimaa122/Customer_segment/blob/main/Train.csv). 
    
-- [Data Dictionary]()
+- [Data Dictionary](https://github.com/shaimaa122/Customer_segment/blob/main/Customer%20Segmentation%20-%20Data%20Dictinory.pdf)
 
 ### Overview:
 
