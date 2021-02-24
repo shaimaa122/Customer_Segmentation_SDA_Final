@@ -17,7 +17,7 @@ Customer segmentation is the practice of dividing a customer into groups of indi
 ![Customer segmentation](https://github.com/shaimaa122/Customer_segment/blob/main/Customer_segmintation.png)
 
 ## Process(Steps):
-### 1- Exploratory Data Analysis(EDA):
+## 1- Exploratory Data Analysis(EDA):
 Exploratory data analysis step is to data cleaning, explore data type, visualize the data, find the relation between the features and Segmentation(target), data distribution, mean and standard deviation, and etc, i figured:
    - Most of the customers are in D segmentation, Least of the customers are in B segmentation, The customers in A and C segmentations are close to each other.
    - Most of the customers are Male,The D segmentation contains the most Males & Female and the B segmentation contains the least Males & Female because the numbers of    Customers in D is more than in B
@@ -43,7 +43,7 @@ contain the most of married Customers and spnding score is Average becouse thair
 The D Segmentation:
 contain the most of unmarried Customers and spnding score is low Customers becouse thair age is less than 30 , and the Profession is Homemaker.
 
-### 2- Extract Featuures:
+## 2- Extract Featuures:
    - Categorical Features: 
       - Convert the binary columns into 0,1
       - Convert categorical variable into dummy/indicator variables.
@@ -52,10 +52,10 @@ contain the most of unmarried Customers and spnding score is low Customers becou
         `Age_range` - Classify the customers based on their age ( less than 30, less than 45, less than 60, more than 60)
         
         
-### 3- Modelling:
+## 3- Modelling:
    In this project, I split data then I use classfications models: `Baseline Model` ,`Logistic Regression`,`Decision Tree Classifier`,
    `Random Forest Classifier `,  ` KNN Classifier`,  `SGD Classifier`, `Stacking Classifier`
-#### Compare Models
+### Compare Models
 ![Compare Models](https://github.com/shaimaa122/Customer_segment/blob/main/compare%20models%20with%20grid.png)
 
 - To compare these models with the `Baseline Model`, I noticed that. Baseline showed the lowest accuracy with 0.28606.
