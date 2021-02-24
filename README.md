@@ -36,13 +36,17 @@ Exploratory data analysis step is to data cleaning, explore data type, visualize
 
 **At the end of EDA:**
 - The A Segmentation:
-contain the most of married Customers and spnding score is Low becouse thair age is less than 40 , and the Profession is Artists.
+     
+    contain the most of married Customers and spnding score is Low becouse thair age is less than 40 , and the Profession is Artists.
 - The B Segmentation:
-contain the less number of customers and thair age more than 30 and less than 50, So most of customer is married.
+
+   contain the less number of customers and thair age more than 30 and less than 50, So most of customer is married.
 - The c Segmentation:
-contain the most of married Customers and spnding score is Average becouse thair age is more than 45 , and the Profession is Artists.
+
+   contain the most of married Customers and spnding score is Average becouse thair age is more than 45 , and the Profession is Artists.
 - The D Segmentation:
-contain the most of unmarried Customers and spnding score is low Customers becouse thair age is less than 30 , and the Profession is Homemaker.
+
+   contain the most of unmarried Customers and spnding score is low Customers becouse thair age is less than 30 , and the Profession is Homemaker.
 
 ## 2- Extract Featuures:
    - Categorical Features: 
@@ -54,17 +58,31 @@ contain the most of unmarried Customers and spnding score is low Customers becou
         
         
 ## 3- Modelling:
-   In this project, I split data then I use classfications models: `Baseline Model` ,`Logistic Regression`,`Decision Tree Classifier`,
-   `Random Forest Classifier `,  ` KNN Classifier`,  `SGD Classifier`, `Stacking Classifier`
+   In this project, I scale the numerical columns(`Age`,`Family size `,`Work Experience `) and split data then I use classfications models: 
+   - `Baseline Model`: 
+      predict the most common class
+   - [`Logistic Regression`](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html?highlight=logistic%20regression#sklearn.linear_model.LogisticRegression)
+   - [`Decision Tree Classifier`](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html?highlight=decision%20tree%20classifier#sklearn.tree.DecisionTreeClassifier)
+   - [`Random Forest Classifier `](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html?highlight=random%20forest%20classifier#sklearn.ensemble.RandomForestClassifier)
+   - [` KNN Classifier`](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html?highlight=kneighbors#sklearn.neighbors.KNeighborsClassifier)
+   - [`SGD Classifier`](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDClassifier.html?highlight=sgd%20classifier#sklearn.linear_model.SGDClassifier)
+   - [`Stacking Classifier`](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingClassifier.html?highlight=stacking%20classifier#sklearn.ensemble.StackingClassifier)
+   - 
 ### Compare Models
 ![Compare Models](https://github.com/shaimaa122/Customer_segment/blob/main/compare%20models%20with%20grid.png)
 
-- To compare these models with the `Baseline Model`, I noticed that. Baseline showed the lowest accuracy with 0.28606.
-- The classfications models with accuracy score : `Logistic Regression` is 0.50656,`Decision Tree Classifier` is 0.43505,
-   `Random Forest Classifier ` is 0.4889,  ` KNN Classifier` is 0.47552,  `SGD Classifier` is 0.47663, `Stacking Classifier `is 0.5217, The best score compared by baseline is **Stacking model**
+- To compare these models with the `Baseline Model`, I noticed that Baseline showed the lowest accuracy with 0.28606
+- The classfications models with accuracy score :
+   - `Logistic Regression` is 0.50656
+   - `Decision Tree Classifier` is 0.43505
+   - `Random Forest Classifier ` is 0.4889
+   - ` KNN Classifier` is 0.47552
+   -  `SGD Classifier` is 0.47663
+   -  `Stacking Classifier `is 0.5217
+- The best score compared to baseline is **Stacking model**
    
 - At the end, The Stacking model after using GridSearchCV with best params is 0.52888 the acurrcy is increased.
-  
+ 
  
  
          
