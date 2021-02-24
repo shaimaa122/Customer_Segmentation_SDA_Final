@@ -12,8 +12,10 @@
 - [Data Dictionary](https://github.com/shaimaa122/Customer_segment/blob/main/Customer%20Segmentation%20-%20Data%20Dictinory.pdf)
 
 ## Overview:
-Customer segmentation is the practice of dividing a customers into groups of individuals that are similar As below fig, In this project ,I classify the customers into 4 segmentations(A,B,C,D) based on Age, Work experience and etc.
+Customer segmentation is the practice of dividing customers into groups of individuals that are similar in specific ways relevant to marketing, such as age, gender, interests and spending habits.
+The Customer segmentation helps the company to know the customers that’s leads to success the business. 
 
+In this project I will apply the idea by classify the customers into four segmentations (A, B, C, D) based on Age, work exp, family size and more 
 
 ![Customer segmentation](https://github.com/shaimaa122/Customer_segment/blob/main/Customer_segmintation.png)
 
@@ -21,9 +23,8 @@ Customer segmentation is the practice of dividing a customers into groups of ind
 ## 1- Exploratory Data Analysis(EDA):
 Exploratory data analysis step is to data cleaning, explore data type, visualize the data, find the relation between the features and Segmentation(target), data distribution, mean and standard deviation, and etc, i figured / I noticed:
 
-   - The distribution of Customers Most of the customers are in `D` segmentation, Least of the customers are in `B` segmentation.
+   - Most of the customers are in `D` segmentation, Least of the customers are in `B` segmentation,and the customers in `A` and `C` segmentations are close to each other.
    - Most of the customers are Male,The `D` segmentation contains the most Males & Female and the `B` segmentation contains the least Males & Female because the numbers of Customers in `D` is more than in `B`
-   - The most of customers have 1 year experience, and few customers have more than 10 years.
    - Most of the customers are Married, The `D` segmentation contains the most of unmarried customer, and the other segmentations (`A`,`B`,`C`) contains most of married special `C`.
    - The most Profession is Artist and the least Profession is Homemaker, The `C` , `A` and `B` segmentations contains most of the Artist, but The `D` segmentation contains most of the Healthcare.
    - The age of customers is very important the `D` contain Customers between 20 - 30,So contains the most of unmarried, most of ` A`  between 27 - 40, most of` B` between 30 - 50 and most of `C` between 40 - 50, So contains the most of married.
@@ -46,9 +47,7 @@ Exploratory data analysis step is to data cleaning, explore data type, visualize
    contain the most of married Customers and spnding score is Average becouse thair age is more than 45 , and the Profession is Artists.
 - `The D Segmentation`:
 
-   contain the most of unmarried Customers and spnding score is low Customers becouse thair age is less than 30 , and the Profession is Homemaker.
-
-Note: can show all visualization in [EDA repo](https://github.com/shaimaa122/Customer_segment/tree/main/EDA)
+   contain the most of unmarried Customers and spnding score is low Customers becouse thair age is less than 30 , and the Profession is Homecare.
 
 Note: You can see all the visualisation in [EDA repo](https://github.com/shaimaa122/Customer_segment/tree/main/EDA)
 
@@ -62,7 +61,7 @@ Note: You can see all the visualisation in [EDA repo](https://github.com/shaimaa
         
         
 ## 3- Modelling:
-   In this project, I scale the numerical columns(`Age`,`Family size `,`Work Experience `) and split data then I use classfications models: 
+   In this project, I [scale](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) the numerical columns(`Age`,`Family size `,`Work Experience `) and [split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html) data then I use classfications models: 
    - `Baseline Model`: 
       predict the most common class
    - [`Logistic Regression`](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html?highlight=logistic%20regression#sklearn.linear_model.LogisticRegression)
@@ -75,7 +74,7 @@ Note: You can see all the visualisation in [EDA repo](https://github.com/shaimaa
 ### Compare Models
 ![Compare Models](https://github.com/shaimaa122/Customer_segment/blob/main/compare%20models%20with%20grid.png)
 
-- To compare these models with the `Baseline Model`, I noticed that Baseline showed the lowest accuracy with 0.28606
+- Compare these models to the `Baseline Model`, I noticed that Baseline showed the lowest accuracy score with 0.28606
 - The classfications models with accuracy score :
    - `Logistic Regression` is 0.50656
    - `Decision Tree Classifier` is 0.43505
@@ -85,12 +84,5 @@ Note: You can see all the visualisation in [EDA repo](https://github.com/shaimaa
    -  `Stacking Classifier `is 0.5217
 - The best score compared to baseline is **Stacking model**
    
-- At the end, The Stacking model after using GridSearchCV with best params is 0.52888 the acurrcy is increased.
-
-## Conclusion
-
-In the end, I really enjoyed in final project, I do new Achievement in my life, It was interesting, I think in the future I will try to apply new challenges, thanks to both instructors, Mr. Winston Robson & Mr. Mikio Harman, they offered so much effort and help to deliver us to this point of learning, which we consider it in a higher level than where we were standing before 3 months
+- At the end,Optmize the Stacking model by using GridSearchCV with best params and the acurrcy is 0.52888
  
- 
- 
-         
