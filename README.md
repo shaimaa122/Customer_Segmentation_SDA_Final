@@ -86,6 +86,10 @@ Note: You can see all the visualisation in [EDA repo](https://github.com/shaimaa
 - The best score compared to baseline is **Stacking model**
    
 - At the end, The Stacking model after using GridSearchCV with best params is 0.52888 the acurrcy is increased.
+
+## Conclusion
+
+In the end, I really enjoyed in final project, I do new Achievement in my life, It was interesting, I think in the future I will try to apply new challenges, thanks to both instructors, Mr. Winston Robson & Mr. Mikio Harman, they offered so much effort and help to deliver us to this point of learning, which we consider it in a higher level than where we were standing before 3 months
  
  
  
