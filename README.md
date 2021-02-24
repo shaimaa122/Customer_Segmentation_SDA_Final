@@ -57,7 +57,7 @@ Note: You can see all the visualisation in [EDA repo](https://github.com/shaimaa
       - Convert the binary columns into 0,1
       - Convert categorical variable into dummy/indicator variables.
    - Derived Features:
-      - Add new Features to improve the score:
+      - Add new features to improve the score:
         `Age_range` - Classify the customers based on their age ( less than 30, less than 45, less than 60, more than 60)
         
         
