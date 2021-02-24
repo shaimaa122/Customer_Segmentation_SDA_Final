@@ -32,8 +32,10 @@ Exploratory data analysis step is to data cleaning, explore data type, visualize
    - Most of customers spending Low score and least of customers spending high, Most of `D` segmentation is spending Low, because their ages less than 30, Most of `C` segmentation is spending Average, , because their ages more than 40.
    - Most customers have Family size of 2 , Most of customers have  Family size of 9
    - The most of Customers in category Cat_6, The least of Customers in Cat_5 and Cat_1 
- 
+  ![Distribution of segmentation](https://github.com/shaimaa122/Customer_Segmentation_SDA_Final/blob/main/EDA/The%20Distribution%20of%20Segmentation.png)
+
   ![age by segmentation](https://github.com/shaimaa122/Customer_segment/blob/main/EDA/age%20by%20segmintaions.png)
+  
 
 **At the end of EDA:**
 - `The A Segmentation`:
