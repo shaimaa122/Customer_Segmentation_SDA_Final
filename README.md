@@ -13,13 +13,12 @@
 
 ## Overview:
 Customer segmentation is the practice of dividing a customer into groups of individuals that are similar As below fig, In this project ,I classify the customers into 4 segmentations(A,B,C,D).
-</br>
 
 ![Customer segmentation](https://github.com/shaimaa122/Customer_segment/blob/main/Customer_segmintation.png)
 
 ## Process(Steps):
 ### 1- Exploratory Data Analysis(EDA):
-Exploratory data analysis step is to data cleaning, explore data type, visualize the data, find the relation between the features and Segmentation(target), data distribution, mean and standard deviation, and etc, At the end of EDA i figured:
+Exploratory data analysis step is to data cleaning, explore data type, visualize the data, find the relation between the features and Segmentation(target), data distribution, mean and standard deviation, and etc, i figured:
    - Most of the customers are in D segmentation, Least of the customers are in B segmentation, The customers in A and C segmentations are close to each other.
    - Most of the customers are Male,The D segmentation contains the most Males & Female and the B segmentation contains the least Males & Female because the numbers of    Customers in D is more than in B
    - The most of customers have 1 year experience, and few customers have more than 10 years.
@@ -31,7 +30,8 @@ Exploratory data analysis step is to data cleaning, explore data type, visualize
    - Most of customers spending Low score and least of customers spending high, Most of D segmentation is spending Low, because their ages less than 30, Most of C segmentation is spending Average, , because their ages more than 40.
    - Most customers have Family size of 2 , Most of customers have  Family size of 9
    - The most of Customers Cat_6, The least of Customers in Cat_5 and Cat_1
-
+ 
+  ![age by segmentation](https://github.com/shaimaa122/Customer_segment/blob/main/EDA/age%20by%20segmintaions.png)
 
 **At the end of EDA:**
 The A Segmentation:
@@ -50,17 +50,16 @@ contain the most of unmarried Customers and spnding score is low Customers becou
    - Derived Features:
       - Add new Features to improve the score:
         `Age_range` - Classify the customers based on their age ( less than 30, less than 45, less than 60, more than 60)
-### 3- Scaler:
         
-### 4- Modelling:
-   In this project, I split data then I use classfications models:
-   - Baseline Model:
-   - Logistic Regression:
-   - Decision Tree Classifier
-   - Random Forest Classifier 
-   - KNN Classifier
-   - SGD Classifier
-   - Stacking Classifier
+        
+### 3- Modelling:
+   In this project, I split data then I use classfications models: `Baseline Model` ,`Logistic Regression`,`Decision Tree Classifier`,
+   `Random Forest Classifier `,  ` KNN Classifier`,  `SGD Classifier`, `Stacking Classifier`
+   
+#### Compare Models
+![Compare Models](https://github.com/shaimaa122/Customer_segment/blob/main/compare%20models%20with%20grid.png)
+
+  
 
 ## Conclusion:
  
