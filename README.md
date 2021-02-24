@@ -55,12 +55,15 @@ contain the most of unmarried Customers and spnding score is low Customers becou
 ### 3- Modelling:
    In this project, I split data then I use classfications models: `Baseline Model` ,`Logistic Regression`,`Decision Tree Classifier`,
    `Random Forest Classifier `,  ` KNN Classifier`,  `SGD Classifier`, `Stacking Classifier`
-   
 #### Compare Models
 ![Compare Models](https://github.com/shaimaa122/Customer_segment/blob/main/compare%20models%20with%20grid.png)
 
+- To compare these models with the `Baseline Model`, I noticed that. Baseline showed the lowest accuracy with 0.28606.
+- The classfications models with accuracy score : `Logistic Regression` is 0.50656,`Decision Tree Classifier` is 0.43505,
+   `Random Forest Classifier ` is 0.4889,  ` KNN Classifier` is 0.47552,  `SGD Classifier` is 0.47663, `Stacking Classifier `is 0.5217, The best score compared by baseline is **Stacking model**
+   
+- At the end, The Stacking model after using GridSearchCV with best params is 0.52888 the acurrcy is increased.
   
-
-## Conclusion:
+ 
  
          
