@@ -21,7 +21,7 @@ In this project I will apply the idea by classify the customers into four segmen
 
 ## Process:
 ## 1- Exploratory Data Analysis(EDA):
-Exploratory data analysis step is to data cleaning, explore data type, visualize the data, find the relation between the features and Segmentation(target), data distribution, mean and standard deviation, and etc, i figured / I noticed:
+Exploratory data analysis step is to data cleaning, explore data type, visualize the data, find the relation between the features and Segmentation(target), data distribution, mean and standard deviation, and etc, I noticed:
 
    - Most of the customers are in `D` segmentation, Least of the customers are in `B` segmentation,and the customers in `A` and `C` segmentations are close to each other.
    - Most of the customers are Male,The `D` segmentation contains the most Males & Female and the `B` segmentation contains the least Males & Female because the numbers of Customers in `D` is more than in `B`
