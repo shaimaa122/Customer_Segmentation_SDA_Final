@@ -35,16 +35,16 @@ Exploratory data analysis step is to data cleaning, explore data type, visualize
   ![age by segmentation](https://github.com/shaimaa122/Customer_segment/blob/main/EDA/age%20by%20segmintaions.png)
 
 **At the end of EDA:**
-- The A Segmentation:
+- `The A Segmentation`:
      
     contain the most of married Customers and spnding score is Low becouse thair age is less than 40 , and the Profession is Artists.
-- The B Segmentation:
+- `The B Segmentation`:
 
    contain the less number of customers and thair age more than 30 and less than 50, So most of customer is married.
-- The c Segmentation:
+- `The c Segmentation`:
 
    contain the most of married Customers and spnding score is Average becouse thair age is more than 45 , and the Profession is Artists.
-- The D Segmentation:
+- `The D Segmentation`:
 
    contain the most of unmarried Customers and spnding score is low Customers becouse thair age is less than 30 , and the Profession is Homemaker.
 
