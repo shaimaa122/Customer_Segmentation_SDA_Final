@@ -48,6 +48,7 @@ Exploratory data analysis step is to data cleaning, explore data type, visualize
 
    contain the most of unmarried Customers and spnding score is low Customers becouse thair age is less than 30 , and the Profession is Homemaker.
 
+Note: can show all visualization in [EDA repo](https://github.com/shaimaa122/Customer_segment/tree/main/EDA)
 ## 2- Extract Featuures:
    - Categorical Features: 
       - Convert the binary columns into 0,1
